@@ -27,6 +27,11 @@ class App extends Component {
 
         <h3>Funkcijska komponenta liste</h3>
         <UserListFunction users={this.users} />
+
+        <h3>Funkcijskoj komponenti šaljem children</h3>
+        <UserListFunction users={this.users}>
+          <p>Uz ovu listu ide objašnjenje</p>
+        </UserListFunction>
       </>
     );
   }
