@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './App.css'
-import {Paragraf, UserListClass, UserListFunction, StateList, StateParagraf} from './components'
+import {Paragraf, UserListClass, UserListFunction} from './components'
 
 class App extends Component {
   constructor(){
@@ -42,13 +42,6 @@ class App extends Component {
         <p>&rarr; mijenjaju se props u svim listama</p>
         <button onClick={this.agePlus}>Age Plus One Button</button>
 
-        <hr/>
-
-        <h2>Paragraf koji ima state i dva gumba ispod</h2>
-        <StateParagraf/>
-
-        <h2>Promjenjiva lista (stateful component)</h2>
-        <StateList />
       </>
     );
   }
