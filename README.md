@@ -1,6 +1,6 @@
 # z7-z8: components children state
 
-## z7
+## z7 (branch z7)
 
 Potrebno napraviti React aplikaciju s četiri komponente u četiri odvojene datoteke:
 1.  Komponenta App i još jedna komponenta moraju biti definirane klasom, a dvije komponente je potrebno definirati funkcijom.
@@ -10,7 +10,7 @@ Potrebno napraviti React aplikaciju s četiri komponente u četiri odvojene dato
 5.	Komponenta definirana klasom treba prikazati ime i godine korisnika.
 6.	Druga komponenta definirana funkcijom treba prikazati ime i godine korisnika, te treba ispisati proslijeđene children propse.
 
-## z8
+## z8 (branch z8)
 
 1.	U vježbi je potrebno definirati polje korisnici iz prethodne vježbe unutar stanja (statea) komponente App
 2.	Unutar stanja (statea) komponente App pored polja korisnici potrebno je definirati proizvoljnu tekstualnu varijablu
@@ -20,6 +20,6 @@ Potrebno napraviti React aplikaciju s četiri komponente u četiri odvojene dato
 6.	Prikazati promjenu na ekranu
 7.	Komponenta App smije biti jedina komponenta sa stanjima (statefull), komponenta App mora biti definirana klasom
 
-## moj dodatak
+## moj dodatak (branch moj-dodatak)
 
 1. napravi još dvije pametne komponente
